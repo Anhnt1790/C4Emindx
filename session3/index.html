@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+</body>
+<script>
+    // let user1 = "phong";
+    // let user2 = "phuc";
+    // let user3 = "loc";
+
+    //khai bao mang
+    // let array = [];
+
+    // khai bao mang co phan tu 
+    // let arrayWithObj = ["hung", user2, "loc", "phuc"];
+
+    // console.log(arrayWithObj);
+
+    // let menu = ['chao', 'com', 'Burger', 'Khoai'];
+    // console.log(menu);
+
+    //Create : them
+    // menu.push('khoai tay chien');
+    // console.log(menu);
+
+    //Read : doc
+    // console.log(menu[1]);
+
+    // let i = 1;
+    // console.log(menu[i]);
+
+    // let input = Number(prompt("nhap vao"));
+    // console.log(menu[input]);
+
+    //Update: sua
+    // console.log(menu[1]);
+
+    // menu[1] = 'Mien ngu sac';
+    // console.log(menu[1]);
+    // console.log(menu);
+
+    //Delete : xoa
+    // menu.splice(0, 1);
+    // console.log(menu);
+
+    //For and Array:
+    //Read all:
+    // for (let i = 0; i < menu.length; i++) {
+    //     console.log(menu[i]);
+    // }
+
+    //chay nguoc: 3 phan tu, phan tu cuoi index = 2 , length = 3;
+    // i = menu.length - 1;
+    // for(let i = menu.length - 1;i >= 0 ; i--){
+    //     console.log(menu[i]);
+    // }
+
+    //Update all:
+    // for (let i = 0; i < menu.length; i++) {
+    //     menu[i] = menu[i].toUpperCase();
+    // }
+    // console.log(menu)
+
+
+    // let n = Number(prompt("Enter a number"));
+    // console.log(n);
+    // if (n) {
+    //     console.log('Is number');
+    // } else {
+    //     console.log('Not a number');
+    // }
+
+
+    // while (true) {
+    //     let n = Number(prompt("Enter a number"));
+    //     if (n) {
+    //         //n hop le
+    //         break;
+    //     }
+    // }
+
+    // let a = 5;
+    // let b = 10;
+    // [a,b] = [b,a];
+    // console.log(a);
+    // console.log(b);
+
+    let array = ['a', 'b', 'c'];
+    console.log(array);
+
+    // [array[0],array[1],array[2]] = [array[2],array[1],array[0]];
+    // console.log(array);
+    // doc array[0], gan cho bien tmp
+    let tmp = array[0];
+    // update array[0], gan = gia tri cua array[2]
+    array[0] = array[2];
+    // gan gia tri cua array[2] = tmp (array[0] ban dau)
+    array[2] = tmp;
+    // end swap value
+    console.log(array);  // c,b,a,d
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</script>
+
+</html>
