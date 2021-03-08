@@ -17,28 +17,28 @@
     while (true) {
         if (input == 'r') {
             console.log('The current items are:');
-            for (let i = 0; i < shop.length; i++){
+            for (let i = 0; i < shop.length; i++) {
                 console.log(i + 1 + "." + shop[i]);
             }
-        }else if(input == 'c'){
+        } else if (input == 'c') {
             let them = prompt("Enter the new item");
             shop.push(them);
             alert("Done");
             console.log(shop);
-        }else if(input == 'u'){
+        } else if (input == 'u') {
             let posi = prompt("Enter the position");
             let itemNew = prompt("Enter the new name");
             shop[posi] = itemNew;
             alert("Done");
             console.log(shop);
-            
-        }else if(input == 'd'){
+
+        } else if (input == 'd') {
             let poiDell = prompt("Enter the position you want to dell");
-            shop.splice[poiDell + 1,1];
+            shop.splice[poiDell - 1, 1];
             alert("Done");
             console.log(shop);
-            
-        }else{
+
+        } else {
             alert("This command is not supported");
         }
         break;
