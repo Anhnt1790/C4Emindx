@@ -1,0 +1,66 @@
+
+/* #btndangnhap, 
+#btndangki {
+    margin-top: 20px;
+    height: max-content;
+    width: 150px;
+} */
+
+/* #username,
+#pass {
+    width: 30%;
+} */
+
+body {
+    margin: 150px;
+    /* padding: 0; */
+    font-family: sans-serif;
+    background-image: url("Image/jakub-kapusnak-sDbj1dFlFPU-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-size: cover; 
+    
+}
+
+.container {
+    /* width: 300px; */
+    height: 300px;
+    /* border: 1px solid red; */
+    border-radius: 10px;
+    text-align: center;
+}
+
+h1{
+    color:red;
+    font-family: sans-serif;
+}
+
+input {
+    width: 200px;
+    height: 40px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid grey;
+}
+
+#btndangnhap{
+    width: 100px;
+    height: 20px;
+    margin-top: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: gold;
+
+}
+
+#btndangki{
+    width: 100px;
+    height: 20px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: gold;
+}
+
+
+
+
